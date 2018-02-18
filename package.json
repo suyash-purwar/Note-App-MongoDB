@@ -1,0 +1,20 @@
+{
+  "name": "note-app-mongodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha **/utils.test.js",
+    "test-watch": "nodemon --exec \"npm test\""
+  },
+  "author": "Suyash Purwar",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^2.2.19",
+    "yargs": "^11.0.0"
+  },
+  "devDependencies": {
+    "expect": "^1.20.0",
+    "mocha": "^5.0.0"
+  }
+}
